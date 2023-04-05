@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_age",
+						"type": "uint8"
+					}
+				],
+				"name": "addUser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "getUser",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/User.sol": "User"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/IUser.sol": {
+			"keccak256": "0x8c6d06137ed73d353c8b2cd9fdcd1f1c5429d93bb93348c28cecff1d3c163685",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://f941d566116a16f5454d6170208d0e68bddc991bdf9fe5f52b860a55d969316d",
+				"dweb:/ipfs/QmUiy5SM6yYPjRFc4xKKmor69RwbTJPvcW3ZHUpbPcygQ6"
+			]
+		},
+		"contracts/User.sol": {
+			"keccak256": "0xea208ff3feb7e1762adfa1ef403f93487f2c1d85ab32fd2ad1352b8f7c9f8c80",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://c35c365808c49b251f63c7920fe8a53c13bbc578d4aa8de26f1eda2f4c83af28",
+				"dweb:/ipfs/QmP8RGNS5NfcGUdAQTrP7HooCyTRghmShkFo48Po1DZZyy"
+			]
+		}
+	},
+	"version": 1
+}

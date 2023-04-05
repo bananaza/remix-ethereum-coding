@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_msg",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "hellomsg",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/01-hello.sol": "hello"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/01-hello.sol": {
+			"keccak256": "0x4f81d7bc811a25ea4728c110ece3abddcf61e2960c9e26b96ce86362a083a548",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://46558e2296f35d38d8fb545e91422f268179ad2ed28a8bbf0c0bc1bfc64bbddf",
+				"dweb:/ipfs/QmPfbQRDfyGNN7NzASGbU85AHkp1UeFMRyi51eFsiV6BXP"
+			]
+		}
+	},
+	"version": 1
+}
